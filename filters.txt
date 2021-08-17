@@ -1,29 +1,203 @@
-news.google.com
 facebook.com
+news.google.com
 discord.com
 
-#Removes useless links from Youtube sidebar
-www.youtube.com##a[title="Subscriptions"]
-www.youtube.com##a[title="Home"] 
-www.youtube.com##a[title="Trending"] 
-www.youtube.com##a[title="Watch later"]
-www.youtube.com##a[title="History"]
-www.youtube.com##a[title="YouTube Premium"]
-www.youtube.com##a[title="Gaming"]
-www.youtube.com##a[title="Fashion & Beauty"]
-www.youtube.com##a[title="Movies & Shows"]
-www.youtube.com##a[title="Live"]
-www.youtube.com##a[title="Learning"]
-www.youtube.com##a[title="Settings"]
-www.youtube.com##a[title="Help"]
-www.youtube.com##a[title="Send feedback"]
-www.youtube.com##a[title="Report history"]
-www.youtube.com##div#copyright
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Alexa))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Pride))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Fashion))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Sign in for the best experience))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(kids))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(3 months for $0.99))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(magazines))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(candy))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Amazon Luna Controller))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(gaming))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Get sleek with high shine))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(cats))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Pro Salon & Spa))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Outdoor heating))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(4+ star fashion favorites))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(K-12))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Shop livestreams))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(LGBTQ))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(activewear))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(shoe))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(LEGO))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(school))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(wardrobe))
+amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(women))
+
+
 
 #GLOBALS
+!Gets rid of all pause overlays for youtube videos
 ##.ytp-pause-overlay
 
-#FINANCIAL
+bloomberg.com##div.overlay-container
+bloomberg.com##div#overlay-OQsTJaU
+bloomberg.com##[data-curation-id="graphics-paywall"]
+
+devdocs.io##[data-slug="apache_http_server"]
+devdocs.io##[data-slug="angular"]
+devdocs.io##[data-slug="angularjs"]
+devdocs.io##[data-slug="ansible"]
+devdocs.io##[data-slug="apache_pig"]
+devdocs.io##[data-slug="async"]
+devdocs.io##[data-slug="backbone"]
+devdocs.io##[data-slug="bash"]
+devdocs.io##[data-slug="bootstrap"]
+devdocs.io##[data-slug="bottle"]
+devdocs.io##[data-slug="bower"]
+devdocs.io##[data-slug="browser_support_tables"]
+devdocs.io##[data-slug="c"]
+devdocs.io##[data-slug="cpp"]
+devdocs.io##[data-slug="cakephp"]
+devdocs.io##[data-slug="chef"]
+devdocs.io##[data-slug="clojure"]
+devdocs.io##[data-slug="cmake"]
+devdocs.io##[data-slug="codeceptjs"]
+devdocs.io##[data-slug="codeception"]
+devdocs.io##[data-slug="codeigniter"]
+devdocs.io##[data-slug="coffeescript"]
+devdocs.io##[data-slug="composer"]
+devdocs.io##[data-slug="composer"]
+devdocs.io##[data-slug="cordova"]
+devdocs.io##[data-slug="crystal"]
+devdocs.io##[data-slug="cypress"]
+devdocs.io##[data-slug="d"]
+devdocs.io##[data-slug="d3"]
+devdocs.io##[data-slug="dart"]
+devdocs.io##[data-slug="django"]
+devdocs.io##[data-slug="django_rest_framework"]
+devdocs.io##[data-slug="dojo"]
+devdocs.io##[data-slug="drupal"]
+devdocs.io##[data-slug="electron"]
+devdocs.io##[data-slug="elisp"]
+devdocs.io##[data-slug="elixir"]
+devdocs.io##[data-slug="enzyme"]
+devdocs.io##[data-slug="ember"]
+devdocs.io##[data-slug="erlang"]
+devdocs.io##[data-slug="eslint"]
+devdocs.io##[data-slug="falcon"]
+devdocs.io##[data-slug="fish"]
+devdocs.io##[data-slug="flow"]
+devdocs.io##[data-slug="gcc"]
+devdocs.io##[data-slug="go"]
+devdocs.io##[data-slug="godot"]
+devdocs.io##[data-slug="grunt"]
+devdocs.io##[data-slug="gnuplot"]
+devdocs.io##[data-slug="gnu_fortran"]
+devdocs.io##[data-slug="gnu_cobol"]
+devdocs.io##[data-slug="graphite"]
+devdocs.io##[data-slug="handlebars"]
+devdocs.io##[data-slug="haskell"]
+devdocs.io##[data-slug="haxe"]
+devdocs.io##[data-slug="influxdata"]
+devdocs.io##[data-slug="immutable"]
+devdocs.io##[data-slug="jasmine"]
+devdocs.io##[data-slug="jekyll"]
+devdocs.io##[data-slug="jest"]
+devdocs.io##[data-slug="jquery"]
+devdocs.io##[data-slug="jqueryui"]
+devdocs.io##[data-slug="jquerymobile"]
+devdocs.io##[data-slug="jsdoc"]
+devdocs.io##[data-slug="julia"]
+devdocs.io##[data-slug="knockout"]
+devdocs.io##[data-slug="koa"]
+devdocs.io##[data-slug="kotlin"]
+devdocs.io##[data-slug="laravel"]
+devdocs.io##[data-slug="leaflet"]
+devdocs.io##[data-slug="less"]
+devdocs.io##[data-slug="liquid"]
+devdocs.io##[data-slug="lua"]
+devdocs.io##[data-slug="love"]
+devdocs.io##[data-slug="lodash"]
+devdocs.io##[data-slug="markdown"]
+devdocs.io##[data-slug="gtk"]
+devdocs.io##[data-slug="matplotlib"]
+devdocs.io##[data-slug="mariadb"]
+devdocs.io##[data-slug="marionette"]
+devdocs.io##[data-slug="meteor"]
+devdocs.io##[data-slug="modernizr"]
+devdocs.io##[data-slug="moment"]
+devdocs.io##[data-slug="mongoose"]
+devdocs.io##[data-slug="nginx"]
+devdocs.io##[data-slug="nginx_lua_module"]
+devdocs.io##[data-slug="nim"]
+devdocs.io##[data-slug="nokogiri"]
+devdocs.io##[data-slug="numpy"]
+devdocs.io##[data-slug="octave"]
+devdocs.io##[data-slug="opensdb"]
+devdocs.io##[data-slug="openjdk"]
+devdocs.io##[data-slug="opentsdb"]
+devdocs.io##[data-slug="padrino"]
+devdocs.io##[data-slug="pandas"]
+devdocs.io##[data-slug="perl"]
+devdocs.io##[data-slug="phalcon"]
+devdocs.io##[data-slug="phaser"]
+devdocs.io##[data-slug="phoenix"]
+devdocs.io##[data-slug="php"]
+devdocs.io##[data-slug="phpunit"]
+devdocs.io##[data-slug="pony"]
+devdocs.io##[data-slug="pug"]
+devdocs.io##[data-slug="puppeteer"]
+devdocs.io##[data-slug="pygame"]
+devdocs.io##[data-slug="pytorch"]
+devdocs.io##[data-slug="ramda"]
+devdocs.io##[data-slug="react_native"]
+devdocs.io##[data-slug="redis"]
+devdocs.io##[data-slug="relay"]
+devdocs.io##[data-slug="rethinkdb"]
+devdocs.io##[data-slug="mariadb"]
+devdocs.io##[data-slug="minitest"]
+devdocs.io##[data-slug="q"]
+devdocs.io##[data-slug="qt"]
+devdocs.io##[data-slug="redux"]
+devdocs.io##[data-slug="react"]
+devdocs.io##[data-slug="react_bootstrap"]
+devdocs.io##[data-slug="reactivex"]
+devdocs.io##[data-slug="ruby"]
+devdocs.io##[data-slug="rails"]
+devdocs.io##[data-slug="requirejs"]
+devdocs.io##[data-slug="rxjs"]
+devdocs.io##[data-slug="rust"]
+devdocs.io##[data-slug="saltstack"]
+devdocs.io##[data-slug="scala"]
+devdocs.io##[data-slug="scikit_image"]
+devdocs.io##[data-slug="scikit_learn"]
+devdocs.io##[data-slug="sequelize"]
+devdocs.io##[data-slug="sinon"]
+devdocs.io##[data-slug="socketio"]
+devdocs.io##[data-slug="spring_boot"]
+devdocs.io##[data-slug="sqlite"]
+devdocs.io##[data-slug="statsmodels"]
+devdocs.io##[data-slug="symfony"]
+devdocs.io##[data-slug="svg"]
+devdocs.io##[data-slug="tensorflow"]
+devdocs.io##[data-slug="tensorflow_cpp"]
+devdocs.io##[data-slug="terraform"]
+devdocs.io##[data-slug="trio"]
+devdocs.io##[data-slug="twig"]
+devdocs.io##[data-slug="underscore"]
+devdocs.io##[data-slug="mariadb"]
+devdocs.io##[data-slug="tcl_tk"]
+devdocs.io##[data-slug="vagrant"]
+devdocs.io##[data-slug="vulkan"]
+devdocs.io##[data-slug="wordpress"]
+devdocs.io##[data-slug="xslt_xpath"]
+devdocs.io##[data-slug="yarn"]
+devdocs.io##[data-slug="yii"]
+devdocs.io##[data-slug="werkzeug"]
+devdocs.io##[data-slug="jinja"]
+devdocs.io##[data-slug="groovy"]
+devdocs.io##[data-slug="flask"]
+devdocs.io##[data-slug="ocaml"]
+devdocs.io##[data-slug="haproxy"]
+
+economist.com###piano-ribbon
+
+facebook.com##.egoOrganicColumn.y_5uk6hrm7_.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
+
 
 #mint.com
 mint.intuit.com###moduleAccounts-bank > .accounts-adv
@@ -31,149 +205,12 @@ mint.intuit.com##.ggvhNR.AdviceComponent__AdviceContainer-sc-6htxia-0.dc707f64-f
 mint.intuit.com##.adviceWidget.CardView
 mint.intuit.com##.withAFooter.w2sWidget.CardView
 
-#tradingview.com 
-tradingview.com###header-toolbar-publish-desktop
-tradingview.com##div.widgetbar-widget-streams
-tradingview.com##[data-name="streams"]
-tradingview.com##[data-name="pm_chats"]
-tradingview.com##[data-name="news"]
-tradingview.com##[data-name="order-panel-button"]
-tradingview.com##[data-name="polandball"]
-tradingview.com##div[data-name='chats']
-
-tradingview.com##div[data-name='paper_trading']
-
-tradingview.com##div.tv-chat
-tradingview.com##div.widgetbar-widget-publicchats
-
-www.tradingview.com##.tv-feed-layout__ideas-column
-
-! 2020-08-31 https://www.tradingview.com
-www.tradingview.com##.trial-notification-cyuKPuhS.toast-305jedKL
-
-! 2020-09-08 https://www.tradingview.com
-www.tradingview.com###overlap-manager-root > div:nth-of-type(2) > div
-
-www.tradingview.com##div.common-tooltip-vertical.apply-common-tooltip.isTab-1dbyVeUX.button-3SuA46Ww:nth-of-type(8) > span > svg
-www.tradingview.com##div.common-tooltip-vertical.apply-common-tooltip.isTab-1dbyVeUX.button-3SuA46Ww:nth-of-type(8)
-
-
-
-#futures.kucoin.com
-! 8/9/2020 https://futures.kucoin.com
-||assets.staticimg.com/pro/static/media/hb.22477694.svg$image
-futures.kucoin.com##.groupActivityEntrance--lPR8y
-futures.kucoin.com##.wrapper--2DUfc
-
-! 2020-09-10 https://monova.unblockit.top
-monova.unblockit.top###lkg1
-
-! 2020-09-21 https://www.tradingview.com
-!www.tradingview.com##.common-tooltip-vertical.apply-common-tooltip.isGrayed-3O5VgbN4.isActive-1D4aU96I.isTab-1dbyVeUX.button-3SuA46Ww
-
-play.typeracer.com##.typoAlertPopup
-
-
-! 10/5/2018, 3:10:14 PM behind-the-scene
-||www.aliexpress.com/af/category/*$xmlhttprequest,domain=behind-the-scene
-
-! 10/5/2018, 3:21:28 PM behind-the-scene
-||www.aliexpress.com/af/category/200002547.html?site=glo&g=y&blanktest=0&origin=n&jump=afs&SortType=create_desc&page=2&catName=nails-art-tools&CatId=200002547&isFavorite=y&needQuery=n&minPrice=2.58$xmlhttprequest,domain=behind-the-scene
-
-! 10/5/2018, 3:21:35 PM behind-the-scene
-||www.aliexpress.com/af/category/200002547.html?site=glo&g=y&blanktest=0&origin=n&jump=afs&SortType=create_desc&page=2&catName=nails-art-tools&CatId=200002547&isFavorite=y&needQuery=n&minPrice=2.58$xmlhttprequest,domain=behind-the-scene,important
-
-! 10/10/2018, 7:35:28 PM https://www.youtube.com/
-!www.youtube.com###scroll-container
-!REMOVE RECOMMENDED FROM HOMEPAGE ONLY
-youtube.com##.grid[page-subtype="home"]
-
-
-
-! 10/11/2018, 5:27:09 AM https://www.youtube.com/
-!www.youtube.com###grid-container > .ytd-expanded-shelf-contents-renderer.style-scope
-
-
-! 12/24/2018, 5:56:02 PM https://cookiesandcups.com/half-pound-cookies/
-cookiesandcups.com###catapult-cookie-bar
-
-! 3/13/2019 https://thispersondoesnotexist.com
-thispersondoesnotexist.com##p:nth-of-type(2)
-thispersondoesnotexist.com###description
-
-! 3/16/2019 https://www.youtube.com
-!www.youtube.com###contents > .ytd-shelf-renderer.style-scope
-!www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
-
-! 7/8/2019 https://www.facebook.com
-www.facebook.com##.y_5uk6hrm7_.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
-
-
-! 7/8/2019 https://www.facebook.com
-www.facebook.com###u_ps_0_0_c > .userContentWrapper._5pcr > ._q7o._1w_m._1dwg > div:nth-of-type(2)
-
-! 7/10/2019 https://www.youtube.com
-!www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(2)
-
-! 7/12/2019 http://boards.4channel.org
-||s.4cdn.org/image/contest_banners/74f99a50c7b3c41c466a0b061f0dea3814bcb22c.gif$image
-boards.4channel.org###bannerCnt
-boards.4channel.org##.center.middlead
-
-! 8/22/2019 https://www.youtube.com
-!www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(24)
-
-! 8/23/2019 https://www.facebook.com
-www.facebook.com###hyperfeed_story_id_5d602d6fedfe86a04116689
-
-
-
-! 9/9/2019 https://coinlib.io
-coinlib.io##.show.dropdown-menu > a.dropdown-item:nth-of-type(1)
-
-! 10/4/2019 https://www.kucoin.com
-www.kucoin.com##.register___2bsOb
-
 
 ! 5/1/2020 https://old.reddit.com
 ||www.redditstatic.com/sprite-reddit.e5NqNKsOkdA.png$image
 
-
-! 5/1/2020 https://www.newyorker.com
-www.newyorker.com##.incognito-barrier
-
-! 6/21/2020 https://www.google.com
-www.google.com##div:nth-of-type(1) > g-section-with-header
-
-! 6/30/2020 https://twitter.com
-twitter.com##.r-1udh08x.r-ku1wi2.r-rs99b7.r-1phboty.r-t23y2h.r-1uhd6vh.r-1uaug3w.css-1dbjc4n
-
-! 6/30/2020 https://www.google.com
-www.google.com##.doodle.logo
-www.google.com###hplogo
-www.google.com##.szppmdbYutt__middle-slot-promo
-
-! 7/18/2020 http://crackstreams.com
-||st.chatango.com/h5/gz/r0507201258/id.html$subdocument
-
-futures.kucoin.com##[_id="depthChart"]
-
-
-#NEWS
-standard.co.uk##.sc-fkubWd
-economist.com###piano-ribbon
-bloomberg.com##div.overlay-container
-bloomberg.com##div#overlay-OQsTJaU
-bloomberg.com##[data-curation-id="graphics-paywall"]
-
-#SOCIAL MEDIA
-facebook.com##.egoOrganicColumn.y_5uk6hrm7_.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
-
-youtube.com##div>h3:has-text(Videos)
-youtube.com###clarify-box > .ytd-watch-flexy.style-scope
-
-
-
+reddit.com
+https://www.reddit.com/premium
 
 reddit.com##.premium-banner
 reddit.com##.listingsignupbar
@@ -475,167 +512,143 @@ reddit.com##div.Post:has-text(r/MadeMeSmile)
 reddit.com##div.Post:has-text(r/LeopardsAteMyFace)
 reddit.com##div.Post:has-text(r/PublicFreakout)
 
-#BUSINESS
+#futures.kucoin.com
+! 8/9/2020 https://futures.kucoin.com
+||assets.staticimg.com/pro/static/media/hb.22477694.svg$image
+futures.kucoin.com##.groupActivityEntrance--lPR8y
+futures.kucoin.com##.wrapper--2DUfc
+
+! 2020-09-10 https://monova.unblockit.top
+monova.unblockit.top###lkg1
+
+! 2020-09-21 https://www.tradingview.com
+!www.tradingview.com##.common-tooltip-vertical.apply-common-tooltip.isGrayed-3O5VgbN4.isActive-1D4aU96I.isTab-1dbyVeUX.button-3SuA46Ww
+
+play.typeracer.com##.typoAlertPopup
+
+
+! 10/5/2018, 3:10:14 PM behind-the-scene
+||www.aliexpress.com/af/category/*$xmlhttprequest,domain=behind-the-scene
+
+! 10/5/2018, 3:21:28 PM behind-the-scene
+||www.aliexpress.com/af/category/200002547.html?site=glo&g=y&blanktest=0&origin=n&jump=afs&SortType=create_desc&page=2&catName=nails-art-tools&CatId=200002547&isFavorite=y&needQuery=n&minPrice=2.58$xmlhttprequest,domain=behind-the-scene
+
+! 10/5/2018, 3:21:35 PM behind-the-scene
+||www.aliexpress.com/af/category/200002547.html?site=glo&g=y&blanktest=0&origin=n&jump=afs&SortType=create_desc&page=2&catName=nails-art-tools&CatId=200002547&isFavorite=y&needQuery=n&minPrice=2.58$xmlhttprequest,domain=behind-the-scene,important
+
+
+
+
+
+! 12/24/2018, 5:56:02 PM https://cookiesandcups.com/half-pound-cookies/
+cookiesandcups.com###catapult-cookie-bar
+
+! 3/13/2019 https://thispersondoesnotexist.com
+thispersondoesnotexist.com##p:nth-of-type(2)
+thispersondoesnotexist.com###description
+
+
+! 7/8/2019 https://www.facebook.com
+www.facebook.com##.y_5uk6hrm7_.pagelet > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
+
+
+! 7/8/2019 https://www.facebook.com
+www.facebook.com###u_ps_0_0_c > .userContentWrapper._5pcr > ._q7o._1w_m._1dwg > div:nth-of-type(2)
+
+
+! 7/12/2019 http://boards.4channel.org
+||s.4cdn.org/image/contest_banners/74f99a50c7b3c41c466a0b061f0dea3814bcb22c.gif$image
+boards.4channel.org###bannerCnt
+boards.4channel.org##.center.middlead
+
+! 8/23/2019 https://www.facebook.com
+www.facebook.com###hyperfeed_story_id_5d602d6fedfe86a04116689
+
+
+! 9/9/2019 https://coinlib.io
+coinlib.io##.show.dropdown-menu > a.dropdown-item:nth-of-type(1)
+
+! 10/4/2019 https://www.kucoin.com
+www.kucoin.com##.register___2bsOb
+
+
+
+
+
+! 5/1/2020 https://www.newyorker.com
+www.newyorker.com##.incognito-barrier
+
+! 6/21/2020 https://www.google.com
+www.google.com##div:nth-of-type(1) > g-section-with-header
+
+! 6/30/2020 https://twitter.com
+twitter.com##.r-1udh08x.r-ku1wi2.r-rs99b7.r-1phboty.r-t23y2h.r-1uhd6vh.r-1uaug3w.css-1dbjc4n
+
+! 6/30/2020 https://www.google.com
+www.google.com##.doodle.logo
+www.google.com###hplogo
+www.google.com##.szppmdbYutt__middle-slot-promo
+
+! 7/18/2020 http://crackstreams.com
+||st.chatango.com/h5/gz/r0507201258/id.html$subdocument
+
+futures.kucoin.com##[_id="depthChart"]
+
+standard.co.uk##.sc-fkubWd
+
 producthunt.com##div.styles_item__3hm5t
 
-#TECH & DEVELOPMENT
-devdocs.io##[data-slug="apache_http_server"]
-devdocs.io##[data-slug="angular"]
-devdocs.io##[data-slug="angularjs"]
-devdocs.io##[data-slug="ansible"]
-devdocs.io##[data-slug="apache_pig"]
-devdocs.io##[data-slug="async"]
-devdocs.io##[data-slug="babel"]
-devdocs.io##[data-slug="backbone"]
-devdocs.io##[data-slug="bash"]
-devdocs.io##[data-slug="bluebird"]
-devdocs.io##[data-slug="bootstrap"]
-devdocs.io##[data-slug="bottle"]
-devdocs.io##[data-slug="bower"]
-devdocs.io##[data-slug="browser_support_tables"]
-devdocs.io##[data-slug="c"]
-devdocs.io##[data-slug="chai"]
-devdocs.io##[data-slug="cpp"]
-devdocs.io##[data-slug="cakephp"]
-devdocs.io##[data-slug="chef"]
-devdocs.io##[data-slug="clojure"]
-devdocs.io##[data-slug="cmake"]
-devdocs.io##[data-slug="codeceptjs"]
-devdocs.io##[data-slug="codeception"]
-devdocs.io##[data-slug="codeigniter"]
-devdocs.io##[data-slug="coffeescript"]
-devdocs.io##[data-slug="composer"]
-devdocs.io##[data-slug="composer"]
-devdocs.io##[data-slug="cordova"]
-devdocs.io##[data-slug="crystal"]
-devdocs.io##[data-slug="cypress"]
-devdocs.io##[data-slug="d"]
-devdocs.io##[data-slug="d3"]
-devdocs.io##[data-slug="dart"]
-devdocs.io##[data-slug="django"]
-devdocs.io##[data-slug="django_rest_framework"]
-devdocs.io##[data-slug="docker"]
-devdocs.io##[data-slug="dojo"]
-devdocs.io##[data-slug="drupal"]
-devdocs.io##[data-slug="electron"]
-devdocs.io##[data-slug="elisp"]
-devdocs.io##[data-slug="elixir"]
-devdocs.io##[data-slug="enzyme"]
-devdocs.io##[data-slug="ember"]
-devdocs.io##[data-slug="erlang"]
-devdocs.io##[data-slug="eslint"]
-devdocs.io##[data-slug="falcon"]
-devdocs.io##[data-slug="fish"]
-devdocs.io##[data-slug="flow"]
-devdocs.io##[data-slug="gcc"]
-devdocs.io##[data-slug="go"]
-devdocs.io##[data-slug="godot"]
-devdocs.io##[data-slug="grunt"]
-devdocs.io##[data-slug="gnuplot"]
-devdocs.io##[data-slug="gnu_fortran"]
-devdocs.io##[data-slug="gnu_cobol"]
-devdocs.io##[data-slug="graphite"]
-devdocs.io##[data-slug="handlebars"]
-devdocs.io##[data-slug="haskell"]
-devdocs.io##[data-slug="haxe"]
-devdocs.io##[data-slug="influxdata"]
-devdocs.io##[data-slug="immutable"]
-devdocs.io##[data-slug="jasmine"]
-devdocs.io##[data-slug="jekyll"]
-devdocs.io##[data-slug="jest"]
-devdocs.io##[data-slug="jquery"]
-devdocs.io##[data-slug="jqueryui"]
-devdocs.io##[data-slug="jquerymobile"]
-devdocs.io##[data-slug="jsdoc"]
-devdocs.io##[data-slug="julia"]
-devdocs.io##[data-slug="knockout"]
-devdocs.io##[data-slug="koa"]
-devdocs.io##[data-slug="kotlin"]
-devdocs.io##[data-slug="laravel"]
-devdocs.io##[data-slug="leaflet"]
-devdocs.io##[data-slug="less"]
-devdocs.io##[data-slug="liquid"]
-devdocs.io##[data-slug="lua"]
-devdocs.io##[data-slug="love"]
-devdocs.io##[data-slug="lodash"]
-devdocs.io##[data-slug="markdown"]
-devdocs.io##[data-slug="matplotlib"]
-devdocs.io##[data-slug="mariadb"]
-devdocs.io##[data-slug="marionette"]
-devdocs.io##[data-slug="meteor"]
-devdocs.io##[data-slug="mocha"]
-devdocs.io##[data-slug="modernizr"]
-devdocs.io##[data-slug="moment"]
-devdocs.io##[data-slug="mongoose"]
-devdocs.io##[data-slug="nginx"]
-devdocs.io##[data-slug="nginx_lua_module"]
-devdocs.io##[data-slug="nim"]
-devdocs.io##[data-slug="nokogiri"]
-devdocs.io##[data-slug="numpy"]
-devdocs.io##[data-slug="octave"]
-devdocs.io##[data-slug="opensdb"]
-devdocs.io##[data-slug="openjdk"]
-devdocs.io##[data-slug="opentsdb"]
-devdocs.io##[data-slug="padrino"]
-devdocs.io##[data-slug="pandas"]
-devdocs.io##[data-slug="perl"]
-devdocs.io##[data-slug="phalcon"]
-devdocs.io##[data-slug="phaser"]
-devdocs.io##[data-slug="phoenix"]
-devdocs.io##[data-slug="php"]
-devdocs.io##[data-slug="phpunit"]
-devdocs.io##[data-slug="pony"]
-devdocs.io##[data-slug="pug"]
-devdocs.io##[data-slug="puppeteer"]
-devdocs.io##[data-slug="pygame"]
-devdocs.io##[data-slug="pytorch"]
-devdocs.io##[data-slug="ramda"]
-devdocs.io##[data-slug="react_native"]
-devdocs.io##[data-slug="redis"]
-devdocs.io##[data-slug="relay"]
-devdocs.io##[data-slug="rethinkdb"]
-devdocs.io##[data-slug="mariadb"]
-devdocs.io##[data-slug="minitest"]
-devdocs.io##[data-slug="q"]
-devdocs.io##[data-slug="qt"]
-devdocs.io##[data-slug="redux"]
-devdocs.io##[data-slug="react"]
-devdocs.io##[data-slug="reactivex"]
-devdocs.io##[data-slug="ruby"]
-devdocs.io##[data-slug="rails"]
-devdocs.io##[data-slug="requirejs"]
-devdocs.io##[data-slug="rxjs"]
-devdocs.io##[data-slug="rust"]
-devdocs.io##[data-slug="saltstack"]
-devdocs.io##[data-slug="sass"]
-devdocs.io##[data-slug="scala"]
-devdocs.io##[data-slug="scikit_image"]
-devdocs.io##[data-slug="scikit_learn"]
-devdocs.io##[data-slug="sequelize"]
-devdocs.io##[data-slug="sinon"]
-devdocs.io##[data-slug="socketio"]
-devdocs.io##[data-slug="spring_boot"]
-devdocs.io##[data-slug="sqlite"]
-devdocs.io##[data-slug="statsmodels"]
-devdocs.io##[data-slug="symfony"]
-devdocs.io##[data-slug="svg"]
-devdocs.io##[data-slug="tensorflow"]
-devdocs.io##[data-slug="tensorflow_cpp"]
-devdocs.io##[data-slug="terraform"]
-devdocs.io##[data-slug="trio"]
-devdocs.io##[data-slug="twig"]
-devdocs.io##[data-slug="underscore"]
-devdocs.io##[data-slug="mariadb"]
-devdocs.io##[data-slug="tcl_tk"]
-devdocs.io##[data-slug="vagrant"]
-devdocs.io##[data-slug="vulkan"]
-devdocs.io##[data-slug="wordpress"]
-devdocs.io##[data-slug="xslt_xpath"]
-devdocs.io##[data-slug="yarn"]
-devdocs.io##[data-slug="yii"]
-devdocs.io##[data-slug="werkzeug"]
-devdocs.io##[data-slug="jinja"]
-devdocs.io##[data-slug="groovy"]
-devdocs.io##[data-slug="flask"]
-devdocs.io##[data-slug="ocaml"]
-devdocs.io##[data-slug="haproxy"]
+#removes trial nag modal when tradingview is open in multiple tabs
+tradingview.com##.modal-2qEpRlNG
+#30 day trial notification box
+tradingview.com##.toast-wrapper-1NBponn5
+tradingview.com###header-toolbar-publish-desktop
+tradingview.com##div.widgetbar-widget-streams
+tradingview.com##[data-name="streams"]
+tradingview.com##[data-name="pm_chats"]
+tradingview.com##[data-name="news"]
+tradingview.com##[data-name="order-panel-button"]
+tradingview.com##[data-name="polandball"]
+tradingview.com##div[data-name='chats']
+tradingview.com##div[data-name='paper_trading']
+
+tradingview.com##div.tv-chat
+tradingview.com##div.widgetbar-widget-publicchats
+tradingview.com##.tv-feed-layout__ideas-column
+
+! 2020-09-08 https://www.tradingview.com
+tradingview.com###overlap-manager-root > div:nth-of-type(2) > div
+tradingview.com##div.common-tooltip-vertical.apply-common-tooltip.isTab-1dbyVeUX.button-3SuA46Ww:nth-of-type(8) > span > svg
+tradingview.com##div.common-tooltip-vertical.apply-common-tooltip.isTab-1dbyVeUX.button-3SuA46Ww:nth-of-type(8)
+
+
+thinkorswim.com##.simulated-trading-banner
+
+ventusky.com###menu-app
+
+
+#youtube.com
+
+!Removes recommended from homepage
+!youtube.com##.grid[page-subtype="home"]
+
+#Removes useless links from Youtube sidebar
+www.youtube.com##a[title="Subscriptions"]
+www.youtube.com##a[title="Explore"]
+
+www.youtube.com##a[title="Home"] 
+www.youtube.com##a[title="Trending"] 
+www.youtube.com##a[title="Watch later"]
+www.youtube.com##a[title="History"]
+www.youtube.com##a[title="YouTube Premium"]
+www.youtube.com##a[title="Gaming"]
+www.youtube.com##a[title="Fashion & Beauty"]
+www.youtube.com##a[title="Movies & Shows"]
+www.youtube.com##a[title="Live"]
+www.youtube.com##a[title="Learning"]
+www.youtube.com##a[title="Settings"]
+www.youtube.com##a[title="Help"]
+www.youtube.com##a[title="Send feedback"]
+www.youtube.com##a[title="Report history"]
+www.youtube.com##div#copyright
+
