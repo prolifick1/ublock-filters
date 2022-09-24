@@ -1,29 +1,6 @@
+facebook.com
 news.google.com
 discord.com
-
-instagram.com##a[href="/explore/"]
-
-
-#instagram.com##article:has-text(Paid partnership):remove()
-#More surprising, entire page clears and says "Sorry, this page isn't available. The link you followed may be broken, or the page may have been removed." Even though I was just scrolling and never clicked any link.
-
-#instagram.com##article:has-text(Paid partnership)>div
-#scroll bug from before returns
-
-instagram.com##article:has-text(Paid partnership):style(opacity: 0 !important)
-#works! it just shows a blank gap as I'm scrolling which is perfect.
-instagram.com##article:has-text(Sponsored post):style(opacity: 0 !important)
-instagram.com##article:has-text(Sponsored post):style(opacity: 0 !important)
-instagram.com##article:has-text(mybookie):style(opacity: 0 !important)
-instagram.com##article:has-text(mhpsupps):style(opacity: 0 !important)
-instagram.com##a:has-text(mybookie)
-instagram.com##a:has-text(monsterenergy)
-instagram.com##.COOzN
-
-
-
-#instagram.com##article:has-text(Paid partnership) li:has(img)
-#this one also works to hide just the image carousel
 
 amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Alexa))
 amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(Pride))
@@ -56,7 +33,6 @@ amazon.com#?#div.gw-col:-abp-has(> div:-abp-contains(women))
 !Gets rid of all pause overlays for youtube videos
 ##.ytp-pause-overlay
 
-
 bloomberg.com##div.overlay-container
 bloomberg.com##div#overlay-OQsTJaU
 bloomberg.com##[data-curation-id="graphics-paywall"]
@@ -68,7 +44,6 @@ devdocs.io##[data-slug="ansible"]
 devdocs.io##[data-slug="apache_pig"]
 devdocs.io##[data-slug="async"]
 devdocs.io##[data-slug="backbone"]
-devdocs.io##[data-slug="bash"]
 devdocs.io##[data-slug="bootstrap"]
 devdocs.io##[data-slug="bottle"]
 devdocs.io##[data-slug="bower"]
@@ -87,14 +62,14 @@ devdocs.io##[data-slug="composer"]
 devdocs.io##[data-slug="composer"]
 devdocs.io##[data-slug="cordova"]
 devdocs.io##[data-slug="crystal"]
-devdocs.io##[data-slug="cypress"]
 devdocs.io##[data-slug="d"]
 devdocs.io##[data-slug="d3"]
 devdocs.io##[data-slug="dart"]
-devdocs.io##[data-slug="django"]
-devdocs.io##[data-slug="django_rest_framework"]
+devdocs.io##[data-slug="deno"]
+devdocs.io##[data-slug="docker"]
 devdocs.io##[data-slug="dojo"]
 devdocs.io##[data-slug="drupal"]
+devdocs.io##[data-slug="eigen3"]
 devdocs.io##[data-slug="electron"]
 devdocs.io##[data-slug="elisp"]
 devdocs.io##[data-slug="elixir"]
@@ -102,6 +77,8 @@ devdocs.io##[data-slug="enzyme"]
 devdocs.io##[data-slug="ember"]
 devdocs.io##[data-slug="erlang"]
 devdocs.io##[data-slug="eslint"]
+devdocs.io##[data-slug="esbuild"]
+devdocs.io##[data-slug="express"]
 devdocs.io##[data-slug="falcon"]
 devdocs.io##[data-slug="fish"]
 devdocs.io##[data-slug="flow"]
@@ -109,18 +86,22 @@ devdocs.io##[data-slug="gcc"]
 devdocs.io##[data-slug="go"]
 devdocs.io##[data-slug="godot"]
 devdocs.io##[data-slug="grunt"]
+devdocs.io##[data-slug="gnu_make"]
 devdocs.io##[data-slug="gnuplot"]
 devdocs.io##[data-slug="gnu_fortran"]
 devdocs.io##[data-slug="gnu_cobol"]
 devdocs.io##[data-slug="graphite"]
+devdocs.io##[data-slug="gtk"]
 devdocs.io##[data-slug="handlebars"]
 devdocs.io##[data-slug="haskell"]
 devdocs.io##[data-slug="haxe"]
 devdocs.io##[data-slug="influxdata"]
+devdocs.io##[data-slug="i3"]
 devdocs.io##[data-slug="immutable"]
 devdocs.io##[data-slug="jasmine"]
 devdocs.io##[data-slug="jekyll"]
 devdocs.io##[data-slug="jest"]
+devdocs.io##[data-slug="jq"]
 devdocs.io##[data-slug="jquery"]
 devdocs.io##[data-slug="jqueryui"]
 devdocs.io##[data-slug="jquerymobile"]
@@ -129,7 +110,10 @@ devdocs.io##[data-slug="julia"]
 devdocs.io##[data-slug="knockout"]
 devdocs.io##[data-slug="koa"]
 devdocs.io##[data-slug="kotlin"]
+devdocs.io##[data-slug="kubectl"]
+devdocs.io##[data-slug="kubernetes"]
 devdocs.io##[data-slug="laravel"]
+devdocs.io##[data-slug="latex"]
 devdocs.io##[data-slug="leaflet"]
 devdocs.io##[data-slug="less"]
 devdocs.io##[data-slug="liquid"]
@@ -137,7 +121,6 @@ devdocs.io##[data-slug="lua"]
 devdocs.io##[data-slug="love"]
 devdocs.io##[data-slug="lodash"]
 devdocs.io##[data-slug="markdown"]
-devdocs.io##[data-slug="gtk"]
 devdocs.io##[data-slug="matplotlib"]
 devdocs.io##[data-slug="mariadb"]
 devdocs.io##[data-slug="marionette"]
@@ -148,6 +131,7 @@ devdocs.io##[data-slug="mongoose"]
 devdocs.io##[data-slug="nginx"]
 devdocs.io##[data-slug="nginx_lua_module"]
 devdocs.io##[data-slug="nim"]
+devdocs.io##[data-slug="nix"]
 devdocs.io##[data-slug="nokogiri"]
 devdocs.io##[data-slug="numpy"]
 devdocs.io##[data-slug="octave"]
@@ -162,13 +146,14 @@ devdocs.io##[data-slug="phaser"]
 devdocs.io##[data-slug="phoenix"]
 devdocs.io##[data-slug="php"]
 devdocs.io##[data-slug="phpunit"]
+devdocs.io##[data-slug="point_cloud_library"]
 devdocs.io##[data-slug="pony"]
 devdocs.io##[data-slug="pug"]
 devdocs.io##[data-slug="puppeteer"]
 devdocs.io##[data-slug="pygame"]
 devdocs.io##[data-slug="pytorch"]
+devdocs.io##[data-slug="r"]
 devdocs.io##[data-slug="ramda"]
-devdocs.io##[data-slug="react_native"]
 devdocs.io##[data-slug="redis"]
 devdocs.io##[data-slug="relay"]
 devdocs.io##[data-slug="rethinkdb"]
@@ -176,9 +161,7 @@ devdocs.io##[data-slug="mariadb"]
 devdocs.io##[data-slug="minitest"]
 devdocs.io##[data-slug="q"]
 devdocs.io##[data-slug="qt"]
-devdocs.io##[data-slug="redux"]
-devdocs.io##[data-slug="react"]
-devdocs.io##[data-slug="react_bootstrap"]
+devdocs.io##[data-slug="r"]
 devdocs.io##[data-slug="reactivex"]
 devdocs.io##[data-slug="ruby"]
 devdocs.io##[data-slug="rails"]
@@ -202,6 +185,7 @@ devdocs.io##[data-slug="tensorflow_cpp"]
 devdocs.io##[data-slug="terraform"]
 devdocs.io##[data-slug="trio"]
 devdocs.io##[data-slug="twig"]
+devdocs.io##[data-slug="typescript"]
 devdocs.io##[data-slug="underscore"]
 devdocs.io##[data-slug="mariadb"]
 devdocs.io##[data-slug="tcl_tk"]
@@ -217,6 +201,41 @@ devdocs.io##[data-slug="groovy"]
 devdocs.io##[data-slug="flask"]
 devdocs.io##[data-slug="ocaml"]
 devdocs.io##[data-slug="haproxy"]
+devdocs.io##[data-slug="vite"] 
+devdocs.io##[data-slug="vue"]
+devdocs.io##[data-slug="vue_router"]
+devdocs.io##[data-slug="vuex"]
+devdocs.io##[data-slug="zig"]
+
+tiktok.com##[data-e2e="recommend-list-item-container"]:upward(2)
+
+
+
+indeed.com##li:has-text(CyberCoders):style(opacity:0 !important)
+indeed.com##li:has-text(Senior):style(opacity:0 !important)
+indeed.com##li:has-text(BrainStation):style(opacity:0 !important)
+
+
+
+instagram.com##article:has-text(Paid partnership) li:has(img)
+instagram.com##article:has-text(Paid partnership):style(opacity: 0 !important)
+
+
+||tiktok.com^$removeparam=_d
+||tiktok.com^$removeparam=_r
+||tiktok.com^$removeparam=aweme_type
+||tiktok.com^$removeparam=checksum
+||tiktok.com^$removeparam=pic_cnt
+||tiktok.com^$removeparam=sec_user_id
+||tiktok.com^$removeparam=share_item_id
+||tiktok.com^$removeparam=share_link_id
+||tiktok.com^$removeparam=source
+||tiktok.com^$removeparam=timestamp
+||tiktok.com^$removeparam=u_code
+||tiktok.com^$removeparam=ugbiz_name
+||tiktok.com^$removeparam=user_id
+||tiktok.com^$removeparam=preview_pb
+||tiktok.com^$removeparam=sec_uid
 
 economist.com###piano-ribbon
 
@@ -233,19 +252,310 @@ mint.intuit.com##.withAFooter.w2sWidget.CardView
 ! 5/1/2020 https://old.reddit.com
 ||www.redditstatic.com/sprite-reddit.e5NqNKsOkdA.png$image
 
-# reddit.com
-# HIDE REDDIT HOMEPAGE
-reddit.com##:matches-path(/^/$/).ListingLayout-outerContainer,#siteTable
-
-#HIDE REDDIT HOMEPAGE ALTERNATIVE (ONLY WORKS ON REDDIT NEW)
-#www.reddit.com##div[data-testid="frontpage-sidebar"]:upward(.ListingLayout-outerContainer) 
+reddit.com
 https://www.reddit.com/premium
 
 reddit.com##.premium-banner
 reddit.com##.listingsignupbar
 
 reddit.com###TrendingPostsContainer
+reddit.com##div.Post:has-text(r/pyrocynical)
+reddit.com##div.Post:has-text(r/alberta)
+reddit.com##div.Post:has-text(r/popping)
+reddit.com##div.Post:has-text(r/CollegeBasketball)
+reddit.com##div.Post:has-text(r/StardewValley)
+reddit.com##div.Post:has-text(r/loseit)
+reddit.com##div.Post:has-text(r/MouseReview)
 
+reddit.com##div.Post:has-text(r/confessions)
+reddit.com##div.Post:has-text(r/KGBTR)
+reddit.com##div.Post:has-text(r/TF2)
+reddit.com##div.Post:has-text(r/brooklynninenine)
+reddit.com##div.Post:has-text(r/DuggarsSnark)
+reddit.com##div.Post:has-text(r/me_irlgbt)
+reddit.com##div.Post:has-text(r/de)
+reddit.com##div.Post:has-text(r/CallOfDutyMobile)
+reddit.com##div.Post:has-text(r/DestinyMemes)
+reddit.com##div.Post:has-text(r/FemaleDatingStrategy)
+reddit.com##div.Post:has-text(r/Cricket)
+reddit.com##div.Post:has-text(r/Twitch)
+reddit.com##div.Post:has-text(r/kpop)
+reddit.com##div.Post:has-text(r/bi_irl)
+reddit.com##div.Post:has-text(r/powerwashingporn)
+reddit.com##div.Post:has-text(r/Boxing)
+reddit.com##div.Post:has-text(r/Calgary)
+reddit.com##div.Post:has-text(r/BrandNewSentence)
+reddit.com##div.Post:has-text(r/DamnThatsInteresting)
+reddit.com##div.Post:has-text(r/television)
+reddit.com##div.Post:has-text(r/Astronomy)
+reddit.com##div.Post:has-text(r/BokuNoHeroAcademia)
+reddit.com##div.Post:has-text(r/justneckbeardthings)
+reddit.com##div.Post:has-text(r/AskReddit)
+reddit.com##div.Post:has-text(r/Steam)
+reddit.com##div.Post:has-text(r/sadcringe)
+reddit.com##div.Post:has-text(r/Hololive)
+reddit.com##div.Post:has-text(r/blunderyears)
+reddit.com##div.Post:has-text(r/tooktoomuch)
+reddit.com##div.Post:has-text(r/teenagers)
+reddit.com##div.Post:has-text(r/totalwar)
+reddit.com##div.Post:has-text(r/ontario)
+reddit.com##div.Post:has-text(r/creepy)
+reddit.com##div.Post:has-text(r/relationship_advice)
+reddit.com##div.Post:has-text(r/Whatcouldgowrong)
+reddit.com##div.Post:has-text(r/DunderMifflin)
+reddit.com##div.Post:has-text(r/WitchesVsPatriarchy)
+reddit.com##div.Post:has-text(r/OTMemes)
+reddit.com##div.Post:has-text(r/AskOuija)
+reddit.com##div.Post:has-text(r/teenagers)
+reddit.com##div.Post:has-text(r/ffxiv)
+reddit.com##div.Post:has-text(r/onguardforthee)
+reddit.com##div.Post:has-text(r/gaybros)
+reddit.com##div.Post:has-text(r/LeagueOfMemes)
+reddit.com##div.Post:has-text(r/ComedyNecrophilia)
+reddit.com##div.Post:has-text(r/Helltaker)
+reddit.com##div.Post:has-text(r/playboicarti)
+reddit.com##div.Post:has-text(r/classicwow)
+reddit.com##div.Post:has-text(r/FuckYouKaren)
+reddit.com##div.Post:has-text(r/Eminem)
+reddit.com##div.Post:has-text(r/2meirl4meirl)
+reddit.com##div.Post:has-text(r/KidsAreFuckingStupid)
+reddit.com##div.Post:has-text(r/13or30)
+reddit.com##div.Post:has-text(r/SeishunButaYarou)
+reddit.com##div.Post:has-text(r/india)
+reddit.com##div.Post:has-text(r/Terraria)
+reddit.com##div.Post:has-text(r/iphone)
+reddit.com##div.Post:has-text(r/sydney)
+reddit.com##div.Post:has-text(r/overwatch)
+reddit.com##div.Post:has-text(r/DemocraticSocialism)
+reddit.com##div.Post:has-text(r/terriblefacebookmemes)
+reddit.com##div.Post:has-text(r/FragileWhiteRedditor)
+reddit.com##div.Post:has-text(r/BokuNoHeroAcademia)
+reddit.com##div.Post:has-text(r/minnesota)
+reddit.com##div.Post:has-text(r/buffalobills)
+reddit.com##div.Post:has-text(r/cheating_stories)
+reddit.com##div.Post:has-text(r/HadToHurt)
+reddit.com##div.Post:has-text(r/Breath_of_the_Wild)
+reddit.com##div.Post:has-text(r/TheBoys)
+reddit.com##div.Post:has-text(r/pics)
+reddit.com##div.Post:has-text(r/BeAmazed)
+reddit.com##div.Post:has-text(r/InsaneParler)
+reddit.com##div.Post:has-text(r/holdmyfeedingtube)
+reddit.com##div.Post:has-text(r/DnD)
+reddit.com##div.Post:has-text(r/CrusaderKings)
+reddit.com##div.Post:has-text(r/disneyvacation)
+reddit.com##div.Post:has-text(r/torontoraptors)
+reddit.com##div.Post:has-text(r/TheLastAirbender)
+reddit.com##div.Post:has-text(r/lgbt)
+reddit.com##div.Post:has-text(r/de)
+reddit.com##div.Post:has-text(r/food)
+reddit.com##div.Post:has-text(r/scamthescalpers)
+reddit.com##div.Post:has-text(r/chloe)
+reddit.com##div.Post:has-text(r/lostgeneration)
+reddit.com##div.Post:has-text(r/ich_iel)
+reddit.com##div.Post:has-text(r/DC_Cinematic)
+reddit.com##div.Post:has-text(r/hockey)
+reddit.com##div.Post:has-text(r/lotr)
+reddit.com##div.Post:has-text(r/SequelMemes)
+reddit.com##div.Post:has-text(r/neoliberal)
+reddit.com##div.Post:has-text(r/PornhubComments)
+reddit.com##div.Post:has-text(r/zelda)
+reddit.com##div.Post:has-text(r/RocketLeague)
+reddit.com##div.Post:has-text(r/NoMansSkyTheGame)
+reddit.com##div.Post:has-text(r/AvatarMemes)
+reddit.com##div.Post:has-text(r/OurPresident)
+reddit.com##div.Post:has-text(r/DotA2)
+reddit.com##div.Post:has-text(r/baseball)
+reddit.com##div.Post:has-text(r/SelfAwarewolves)
+reddit.com##div.Post:has-text(r/dating_advice)
+reddit.com##div.Post:has-text(r/weddingshaming)
+reddit.com##div.Post:has-text(r/Doom)
+reddit.com##div.Post:has-text(r/roosterteeth)
+reddit.com##div.Post:has-text(r/buildapc)
+reddit.com##div.Post:has-text(r/IdiotsNearlyDying)
+reddit.com##div.Post:has-text(r/OnePiece)
+reddit.com##div.Post:has-text(r/masseffect)
+reddit.com##div.Post:has-text(r/smashbros)
+reddit.com##div.Post:has-text(r/thelastofus)
+reddit.com##div.Post:has-text(r/gtaonline)
+reddit.com##div.Post:has-text(r/nintendo)
+reddit.com##div.Post:has-text(r/RoastMe)
+reddit.com##div.Post:has-text(r/EliteDangerous)
+reddit.com##div.Post:has-text(r/CasualUK)
+reddit.com##div.Post:has-text(r/cringe)
+reddit.com##div.Post:has-text(r/FortniteBR)
+reddit.com##div.Post:has-text(r/FortNiteBR)
+reddit.com##div.Post:has-text(r/tumblr)
+reddit.com##div.Post:has-text(r/Hololive)
+reddit.com##div.Post:has-text(r/Whatcouldgowrong)
+reddit.com##div.Post:has-text(r/UNBGBBIIVCHIDCTIICBG)
+reddit.com##div.Post:has-text(r/Music)
+reddit.com##div.Post:has-text(r/lego)
+reddit.com##div.Post:has-text(r/halo)
+reddit.com##div.Post:has-text(r/nvidia)
+reddit.com##div.Post:has-text(r/SapphoAndHerFriend)
+reddit.com##div.Post:has-text(r/TheMandalorianTV)
+reddit.com##div.Post:has-text(r/grandorder)
+reddit.com##div.Post:has-text(r/gay_irl)
+reddit.com##div.Post:has-text(r/india)
+reddit.com##div.Post:has-text(r/okbuddyhetero)
+reddit.com##div.Post:has-text(r/serialkillers)
+reddit.com##div.Post:has-text(r/nextfuckinglevel)
+reddit.com##div.Post:has-text(r/NYGiants)
+reddit.com##div.Post:has-text(r/apexlegends)
+reddit.com##div.Post:has-text(r/NintendoSwitch)
+reddit.com##div.Post:has-text(r/Minecraft)
+reddit.com##div.Post:has-text(r/apple)
+reddit.com##div.Post:has-text(r/gadgets)
+reddit.com##div.Post:has-text(r/TrueOffMyChest)
+reddit.com##div.Post:has-text(r/ToiletPaperUSA)
+reddit.com##div.Post:has-text(r/instantkarma)
+reddit.com##div.Post:has-text(r/pokemon)
+reddit.com##div.Post:has-text(r/OldSchoolCool)
+reddit.com##div.Post:has-text(r/thatHappened)
+reddit.com##div.Post:has-text(r/dndmemes)
+reddit.com##div.Post:has-text(r/gamernews)
+reddit.com##div.Post:has-text(r/rareinsults)
+reddit.com##div.Post:has-text(r/cursedcomments)
+reddit.com##div.Post:has-text(r/ShitPostCrusaders)
+reddit.com##div.Post:has-text(r/australia)
+reddit.com##div.Post:has-text(r/WatchPeopleDieInside)
+reddit.com##div.Post:has-text(r/funny)
+reddit.com##div.Post:has-text(r/awfuleverything)
+reddit.com##div.Post:has-text(r/LivestreamFail)
+reddit.com##div.Post:has-text(r/formuladank)
+reddit.com##div.Post:has-text(r/AskMen)
+reddit.com##div.Post:has-text(r/XboxSeriesX)
+reddit.com##div.Post:has-text(r/SmashBrosUltimate)
+reddit.com##div.Post:has-text(r/PS5)
+reddit.com##div.Post:has-text(r/copypasta)
+reddit.com##div.Post:has-text(r/comicbooks)
+reddit.com##div.Post:has-text(r/chess)
+reddit.com##div.Post:has-text(r/WinStupidPrizes)
+reddit.com##div.Post:has-text(r/instant_regret)
+reddit.com##div.Post:has-text(r/ChoosingBeggars)
+reddit.com##div.Post:has-text(r/modernwarfare)
+reddit.com##div.Post:has-text(r/BeautyGuruChatter)
+reddit.com##div.Post:has-text(r/FuckYouKaren)
+reddit.com##div.Post:has-text(r/holdmycosmo)
+reddit.com##div.Post:has-text(r/cringetopics)
+reddit.com##div.Post:has-text(r/pokemongo)
+reddit.com##div.Post:has-text(r/confidentlyincorrect)
+reddit.com##div.Post:has-text(r/hearthstone)
+reddit.com##div.Post:has-text(r/food)
+reddit.com##div.Post:has-text(r/tattoos)
+reddit.com##div.Post:has-text(r/cars)
+reddit.com##div.Post:has-text(r/MaliciousCompliance)
+reddit.com##div.Post:has-text(r/PoliticalHumor)
+reddit.com##div.Post:has-text(r/shittymoviedetails)
+reddit.com##div.Post:has-text(r/pettyrevenge)
+reddit.com##div.Post:has-text(r/TheMandalorianTV)
+reddit.com##div.Post:has-text(r/Economics)
+reddit.com##div.Post:has-text(r/SuddenlyGay)
+reddit.com##div.Post:has-text(r/PandR)
+reddit.com##div.Post:has-text(r/Breath_of_the_Wild)
+reddit.com##div.Post:has-text(r/todayilearned)
+reddit.com##div.Post:has-text(r/canada)
+reddit.com##div.Post:has-text(r/wow)
+reddit.com##div.Post:has-text(r/deadbydaylight)
+reddit.com##div.Post:has-text(r/amd)
+reddit.com##div.Post:has-text(r/GodofWar)
+reddit.com##div.Post:has-text(r/IdiotsInCars)
+reddit.com##div.Post:has-text(r/Fallout)
+reddit.com##div.Post:has-text(r/Art)
+reddit.com##div.Post:has-text(r/CrappyDesign)
+reddit.com##div.Post:has-text(r/NoahGetTheBoat)
+reddit.com##div.Post:has-text(r/TIHI)
+reddit.com##div.Post:has-text(r/stupidpol)
+reddit.com##div.Post:has-text(r/EarthPorn)
+reddit.com##div.Post:has-text(r/videos)
+reddit.com##div.Post:has-text(r/xboxone)
+reddit.com##div.Post:has-text(r/Genshin_Impact)
+reddit.com##div.Post:has-text(r/marvelstudios)
+reddit.com##div.Post:has-text(r/SandersForPresident)
+reddit.com##div.Post:has-text(r/MurderedByAOC)
+reddit.com##div.Post:has-text(r/AOC)
+reddit.com##div.Post:has-text(r/AnimalCrossing)
+reddit.com##div.Post:has-text(r/GlobalOffensive)
+reddit.com##div.Post:has-text(r/MakeMeSuffer)
+reddit.com##div.Post:has-text(r/assholedesign)
+reddit.com##div.Post:has-text(r/pcgaming)
+reddit.com##div.Post:has-text(r/DnDGreentext)
+reddit.com##div.Post:has-text(r/sports)
+reddit.com##div.Post:has-text(r/TopMindsOfReddit)
+reddit.com##div.Post:has-text(r/Gamingcirclejerk)
+reddit.com##div.Post:has-text(r/formula1)
+reddit.com##div.Post:has-text(r/gaming)
+reddit.com##div.Post:has-text(r/menwritingwomen)
+reddit.com##div.Post:has-text(r/nvidia)
+reddit.com##div.Post:has-text(r/badwomensanatomy)
+reddit.com##div.Post:has-text(r/mildlyinfuriating)
+reddit.com##div.Post:has-text(r/CFB)
+reddit.com##div.Post:has-text(r/ProRevenge)
+reddit.com##div.Post:has-text(r/DestinyTheGame)
+reddit.com##div.Post:has-text(r/niceguys)
+reddit.com##div.Post:has-text(r/insaneparents)
+reddit.com##div.Post:has-text(r/StarWars)
+reddit.com##div.Post:has-text(r/meirl)
+reddit.com##div.Post:has-text(r/pcmasterrace)
+reddit.com##div.Post:has-text(r/gifs)
+reddit.com##div.Post:has-text(r/Wellthatsucks)
+reddit.com##div.Post:has-text(r/blackopscoldwar)
+reddit.com##div.Post:has-text(r/clevercomebacks)
+reddit.com##div.Post:has-text(r/gatekeeping)
+reddit.com##div.Post:has-text(r/ThatsInsane)
+reddit.com##div.Post:has-text(r/news)
+reddit.com##div.Post:has-text(r/politics)
+reddit.com##div.Post:has-text(r/PS4)
+reddit.com##div.Post:has-text(r/worldnews)
+reddit.com##div.Post:has-text(r/Unexpected)
+reddit.com##div.Post:has-text(r/leagueoflegends)
+reddit.com##div.Post:has-text(r/cyberpunkgame)
+reddit.com##div.Post:has-text(r/europe)
+reddit.com##div.Post:has-text(r/atheism)
+reddit.com##div.Post:has-text(r/TikTokCringe)
+reddit.com##div.Post:has-text(r/Rainbow6)
+reddit.com##div.Post:has-text(r/nba)
+reddit.com##div.Post:has-text(r/JusticeServed)
+reddit.com##div.Post:has-text(r/FoodPorn)
+reddit.com##div.Post:has-text(r/pics)
+reddit.com##div.Post:has-text(r/memes)
+reddit.com##div.Post:has-text(r/TwoXChromosomes)
+reddit.com##div.Post:has-text(r/WatchPeopleDieInside)
+reddit.com##div.Post:has-text(r/gaming)
+reddit.com##div.Post:has-text(r/dankmemes)
+reddit.com##div.Post:has-text(r/powerwashingporn)
+reddit.com##div.Post:has-text(r/mildlyinteresting)
+reddit.com##div.Post:has-text(r/Jokes)
+reddit.com##div.Post:has-text(r/PrequelMemes)
+reddit.com##div.Post:has-text(r/TheRightCantMeme)
+reddit.com##div.Post:has-text(r/Instagramreality)
+reddit.com##div.Post:has-text(r/leagueoflegends)
+reddit.com##div.Post:has-text(r/MurderedByWords)
+reddit.com##div.Post:has-text(r/interestingasfuck)
+reddit.com##div.Post:has-text(r/TooAfraidToAsk)
+reddit.com##div.Post:has-text(r/aww)
+reddit.com##div.Post:has-text(r/oddlysatisfying)
+reddit.com##div.Post:has-text(r/tifu)
+reddit.com##div.Post:has-text(r/movies)
+reddit.com##div.Post:has-text(r/SquaredCircle)
+reddit.com##div.Post:has-text(r/reddevils)
+reddit.com##div.Post:has-text(r/WhitePeopleTwitter)
+reddit.com##div.Post:has-text(r/BlackPeopleTwitter)
+reddit.com##div.Post:has-text(r/SubredditDrama)
+reddit.com##div.Post:has-text(r/insanepeoplefacebook)
+reddit.com##div.Post:has-text(r/iamatotalpieceofshit)
+reddit.com##div.Post:has-text(r/facepalm)
+reddit.com##div.Post:has-text(r/MovieDetails)
+reddit.com##div.Post:has-text(r/AmongUs)
+reddit.com##div.Post:has-text(r/Coronavirus)
+reddit.com##div.Post:has-text(r/Cringetopia)
+reddit.com##div.Post:has-text(r/Tinder)
+reddit.com##div.Post:has-text(r/lotrmemes)
+reddit.com##div.Post:has-text(r/trashy)
+reddit.com##div.Post:has-text(r/science)
+reddit.com##div.Post:has-text(r/MadeMeSmile)
+reddit.com##div.Post:has-text(r/LeopardsAteMyFace)
+reddit.com##div.Post:has-text(r/PublicFreakout)
 
 #futures.kucoin.com
 ! 8/9/2020 https://futures.kucoin.com
@@ -305,7 +615,7 @@ coinlib.io##.show.dropdown-menu > a.dropdown-item:nth-of-type(1)
 
 ! 10/4/2019 https://www.kucoin.com
 www.kucoin.com##.register___2bsOb
-https://trade.kucoin.com/BTC-USDT
+
 
 
 
@@ -336,7 +646,6 @@ producthunt.com##div.styles_item__3hm5t
 #removes trial nag modal when tradingview is open in multiple tabs
 tradingview.com##.modal-2qEpRlNG
 #30 day trial notification box
-tradingview.com##.trial-notification-tFEg7biT
 tradingview.com##.toast-wrapper-1NBponn5
 tradingview.com###header-toolbar-publish-desktop
 tradingview.com##div.widgetbar-widget-streams
@@ -366,14 +675,11 @@ ventusky.com###menu-app
 #youtube.com
 
 !Removes recommended from homepage
-youtube.com##.grid[page-subtype="home"]
+youtube.com##.ytd-browse[page-subtype="home"]
 
 #Removes useless links from Youtube sidebar
 www.youtube.com##a[title="Subscriptions"]
 www.youtube.com##a[title="Explore"]
-
-#blocks annoying popup for Youtube TV
-www.youtube.com##.ytd-popup-container:has-text(YouTube TV)
 
 www.youtube.com##a[title="Home"] 
 www.youtube.com##a[title="Trending"] 
@@ -390,4 +696,20 @@ www.youtube.com##a[title="Help"]
 www.youtube.com##a[title="Send feedback"]
 www.youtube.com##a[title="Report history"]
 www.youtube.com##div#copyright
+
+! 2022-08-18 https://riders.uber.com
+riders.uber.com##._css-kpeoJm > li._css-crSlPs > ._css-hXmfnr
+riders.uber.com##._css-jvDoyb
+riders.uber.com##._css-kpeoJm > ._css-csFxiX > ._css-hXmfnr
+riders.uber.com##._css-iEiwbx
+riders.uber.com##._css-hvCmyE
+riders.uber.com##._css-gdQgBl
+riders.uber.com##._css-dTqljZ
+riders.uber.com##._css-lpcwSG._css-cVSvJe
+riders.uber.com##._css-gARaLg
+
+! 2022-09-10 https://tinder.com
+tinder.com###o-1827301966
+!tinder.com##div>a[href="/app/likes-you"]
+tinder.com##.messageList:xpath(preceding-sibling::div)
 
